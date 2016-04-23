@@ -1,0 +1,380 @@
+html {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+	height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+	width: 100%;
+	height: 40%;
+	background-color: #ffffff;	
+}
+
+.logo img{
+	margin: 5px;
+}
+
+
+.left_col div {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.name_main {
+	color: #0e334f;
+	font: 18px Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo_main a:hover {
+	color: #e84824;
+}
+
+.main {
+	color: #0e334f;
+	font: 18px Arial;
+	padding: 5px;
+	margin: 0;
+	text-decoration: none
+}
+
+
+.right_col a:hover {
+	color: #e84824;
+}
+ 
+.logo_name a:hover {
+	color: #0e334f;
+}
+
+.left_col {
+	float: left;
+	
+}
+
+.left_col div{
+	padding-left: 20px;
+}
+
+.right_col {
+	float: right;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.link{
+	width: 500px;  
+    padding-top: 5px;
+    text-align: center; 
+    display: inline-block;   
+}
+.clear {
+    clear: both;
+}
+
+.link :before{ 
+	display: inline-block;
+	background: url('../images/sprite.png') no-repeat;
+	overflow: hidden; 
+	text-indent: -9999px;  
+	content: '';
+	text-align: left;  
+}
+
+.icon_1:before {   background-position: -0px -333px; width: 23px; height: 23px; }
+.icon_2:before {background-position: -0px -289px; width: 24px; height: 22px;  }
+.icon_3:before { background-position: -0px -379px; width: 23px; height: 17px;  }
+
+.icon_1:hover:before { background-position: -0px -356px; width: 23px; height: 23px;}
+.icon_2:hover:before {  background-position: -0px -311px; width: 24px; height: 22px;   }
+.icon_3:hover:before { background-position: -0px -396px; width: 23px; height: 17px;  }
+
+/*{ display: inline-block; background: url('png.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.form-1-right { background-position: -0px -0px; width: 40px; height: 40px; }
+.icon-2-right { background-position: -0px -40px; width: 39px; height: 33px; }
+.icon-5-right { background-position: -0px -73px; width: 39px; height: 48px; }
+.icon-4-right { background-position: -0px -121px; width: 38px; height: 40px; }
+.icon-3-right { background-position: -0px -161px; width: 35px; height: 38px; }
+.icon-4-1-right { background-position: -0px -199px; width: 30px; height: 30px; }
+.icon-4-2-right { background-position: -0px -229px; width: 30px; height: 30px; }
+.icon-4-3-right { background-position: -0px -259px; width: 30px; height: 30px; }
+.footer { background-position: -0px -413px; width: 20px; height: 18px; }*/
+
+.link2 img {
+	vertical-align: top;
+}
+
+
+.link a {
+	text-transform: uppercase;
+	color: #909aa4;
+	font: 12px Arial;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.name a{
+	color: #0e334f;
+}
+
+.right_col div {
+	display: inline-block;
+}
+
+.login {
+	background-color: #f4f4f4;
+	
+    border:0px #f4f4f4;
+	text-align: center;
+
+
+}
+
+.login a{
+	color: #061f33;
+	text-decoration: none;
+}
+
+.login :hover {
+	background-color: #e84824;
+    border: 0px #e84824;
+    padding-left:20px;
+    padding-top:10px;
+}
+
+.login a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.login :before {
+	display: inline-block;
+	 background: url('../images/sprite.png') no-repeat;
+	 overflow: hidden;
+	 text-indent: -9999px; 
+	 content: ''; 
+	 text-align: left; 
+}
+
+.icon_4:before {background-position: -0px -431px; width: 18px; height: 22px;  }
+.icon_4:hover:before {  background-position: -20px -413px; width: 19px; height: 22px; }
+
+.content{
+	background-color: #08273e;
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 15px 20px 15px 20px;
+}
+
+.box_2_left{
+	float: left;
+}
+
+.content a{
+	text-decoration: none;
+}
+
+.box_2_left a{
+	color: #a5aab0;
+	padding-right: 10px;
+}
+
+
+.box_2_left img {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+.box_2_right {
+	float: right;
+}
+
+
+.box_2_right a {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content_2{
+	background-color: #08273e;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: -4px 20px 10px 20px ;
+	color: #ffffff;
+}
+
+
+.box_3_left{
+	float: left;
+	width: 40%;
+	background-color: #ffffff;
+	
+}
+
+h1{
+	color: #3d4858;
+	text-align: left;
+}
+
+.local img{
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.local a {
+	font-size: 25px;
+}
+
+
+.local p{
+	text-align: left;
+	font-size: 25px;
+	line-height: 0;
+}
+
+.local{
+	text-align: left;
+}
+
+
+.persent{
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.right_persent{
+	float: right;
+}
+
+.left_persent{
+	float: left;
+}
+
+.number_1 {
+	padding-bottom: 40px;
+	text-align: left;
+	
+}
+
+.number_1 span{
+	text-align: left;
+	border: 3px solid #e6e6e6;
+	border-radius: 100px;
+	padding: 30px 23px 30px 23px ;
+	font-weight: bold;
+	font-size: 30px;
+	color: #6db627;
+}
+
+.number_2 {
+	padding-bottom: 40px;
+	text-align: left;
+	padding-right: 40px;
+	
+
+}
+.number_2 span{
+	text-align: left;
+	border: 3px solid #e6e6e6;
+	border-radius: 100px;
+	padding: 30px 50px 30px 50px ;
+	font-weight: bold;
+	font-size: 30px;
+	color: #e34343;
+	text-transform: uppercase;
+}
+
+.text{
+	font-weight: bold;
+	font-size: 25px;
+	color: #3d4858;
+	text-align: center;
+	padding-right: 40px;
+}
+
+#text_1{
+	font-size: 25px;
+	line-height: 0.5;
+	color: #3d4858;
+}
+
+#text_2{
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 0;
+	color: #3d4858;
+}
+
+td:nth-child(even){
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+table{
+	color: #3d4858;
+}
+
+
+
+.footer {
+	background-color: #061f33;
+  	left: 75px;
+  	bottom: 0;
+ 	width: 100%;
+ 	height: 40px;
+ 	margin: 0 auto;
+ 	text-align: center;
+}
+
+.footer :before {
+	display: inline-block;
+	background: url('../images/sprite.png') no-repeat;
+	overflow: hidden;
+	text-indent: -9999px;    
+	content: '';
+	text-align: left;
+}
+
+.footer:before { background-position: -0px -413px; width: 20px; height: 18px;}
+.footer:hover:before { background-position: -0px -413px; width: 20px; height: 18px;}
+
+
+
+
+.footer a {
+	font: 15px Arial;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer :hover {
+	background-color: #e84824;
+  	left: 0;
+  	bottom: 0;
+ 	width: 100%;
+ 	height: 40px;
+ 	margin: 0 auto;
+ 	text-align: center;	
+}
+
+.box_3_right {
+	float: right;
+	width: 60%;
+	background-color: #0b3250;
+}
+
