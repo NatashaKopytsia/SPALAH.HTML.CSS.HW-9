@@ -220,7 +220,6 @@ html {
 	padding-right: 10px;
 }
 
-
 .box_2_left img {
 	vertical-align: middle;
 	padding-right: 5px;
@@ -245,7 +244,8 @@ html {
 	color: #ffffff;
 }
 
-.box_3_left{
+
+.box_3_left {
 	float: left;
 	width: 35%;
 	height: 742px;
@@ -284,11 +284,11 @@ h1 {
 	padding-top: 30px;
 }
 
-.right_persent {
+.right_persent{
 	float: right;
 }
 
-.left_persent 
+.left_persent {
 	float: left;
 }
 
@@ -297,7 +297,7 @@ h1 {
 	text-align: left;
 }
 
-.number_1 span{
+.number_1 span {
 	text-align: left;
 	border: 3px solid #e6e6e6;
 	border-radius: 100px;
@@ -313,7 +313,7 @@ h1 {
 	padding-right: 40px;
 }
 
-.number_2 span{
+.number_2 span {
 	text-align: left;
 	border: 3px solid #e6e6e6;
 	border-radius: 100px;
@@ -354,6 +354,7 @@ table {
 	color: #3d4858;
 }
 
+
 .box_3_right {
 	background: url(../images/background_image.png) 100% 30% no-repeat;
     background-size: cover;
@@ -389,6 +390,7 @@ table {
 	padding-left: 100px;
 	padding-top: 20px;
 }
+
 
 .fact_pr {
 	margin-right: 20px;
@@ -461,7 +463,8 @@ table {
 	vertical-align: middle;
 }
 
-.button_2_2 {
+
+.button_2_2{
 	float: right;
 	width: 50%;
 	padding-bottom: 20px;
@@ -619,10 +622,10 @@ li span{
 	color: #ffffff;
 }
 
-.footer span {
+.footer span{
 	padding-left: 10px;
 }
-.footer {
+.footer{
 	padding: 10px 559px 20px 559px;
 }
 
@@ -634,3 +637,7 @@ li span{
   	margin: 0 auto;
  	text-align: center;	
 }
+
+
+
+
